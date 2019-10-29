@@ -1,5 +1,6 @@
 
 import flask
+
 from controllers.users import blueprint as users
 ## sempre deixar duas linhas em branco entre as import e o codigo
 
