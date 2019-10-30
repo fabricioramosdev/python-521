@@ -1,15 +1,30 @@
 {% extends 'index.html' %}
+
+{% block header %}
+<h5 class="card-title">Sign-in</h5>
+{% endblock %}
+
 {% block content %}
 <div class="container">
     <div id="sign-in">
         <form method="post" action="/sign-in">
             <div class="form-group">
                 <label for="email">Email</label>
-                <input class="form-control" type="email" id="email" name="email">
+                <div class="input-group">
+                    <input class="form-control" type="email" id="email" name="email" required>
+                </div>
+
             </div>
             <div class="form-group">
                 <label for="email">Senha</label>
-                <input class="form-control" type="password" id="password" name="password">
+                <div class="input-group">
+                    <input class="form-control" type="password" id="password" name="password" required>
+                    <div class="input-group-append">
+                        <button type="button" class="btn btn-dark" id="toggle-password">ver</button>
+                    </div>
+
+                </div>
+
             </div>
             <button type="submit" class="btn  btn-primary"> Acessar </button>
 
