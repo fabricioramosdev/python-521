@@ -54,7 +54,11 @@ class User:
     
 
     def save(self):
-        db.users.update({'_id':self._id},{
+        query = {'email':self.email}
+        if self._id:
+            query = {'_id':self._id}
+
+        db.users.update(query, {
             'name':self.name,
             'email':self.email,
             'password':self.password

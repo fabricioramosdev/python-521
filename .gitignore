@@ -7,3 +7,6 @@ __pycache__
 # configurações do vscode
 .vscode/
 
+# ignoreando requirements.txt fora do projeto
+*/**/requirements.txt
+
