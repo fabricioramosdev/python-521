@@ -24,10 +24,10 @@
                 <td scope="row">{{ c.status }}</td>
                 <td scope="row">
                     <span class="mr-3">
-                        <a href="#" class="btn text-success" title="Inidicar container"><i class="fa fa-play fa-2x"></i></a>
+                        <a href="/docker/{{ c.id }}/start" class="btn text-success" title="Inidicar container"><i class="fa fa-play fa-2x"></i></a>
                     </span>
                     <span>
-                        <a href="#" class="btn text-danger" title="Parar container"><i class="fa fa-stop fa-2x"></i></a>
+                        <a href="/docker/{{ c.id }}/stop" class="btn text-danger" title="Parar container"><i class="fa fa-stop fa-2x"></i></a>
                     </span>
                 </td>
             </tr>
