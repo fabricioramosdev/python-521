@@ -1,0 +1,54 @@
+{% extends 'index.html' %}
+
+{% block header %}
+<h5 class="card-title">Gitlab</h5>
+{% endblock %}
+
+{% block content %}
+<div class="container">
+
+    <h2>Usuários</h2>
+    <table class="table table-hover text-center">
+        <thread>
+            <tr>
+                <td scope="col">E-mail</td>
+                <td scope="col">Usuário</td>
+                <td scope="col">Status</td>
+                <td scope="col">Admin</td>
+            </tr>
+        </thread>
+        <tbody>
+            {% for u in context.user %}
+            <tr scope="row">
+                <td>{{u.email}}</td>
+                <td>{{u.name}}</td>
+                <td>{{u.status}}</td>
+                <td>{{u.is_admin}}</td>
+            </tr>
+            {% endfor%}
+        </tbody>
+    </table>
+    <hr />
+    <h2>Projetos</h2>
+    <table class="table table-hover text-center">
+        <thread>
+            <tr>
+                <td scope="col">Nome do projeto</td>
+                <td scope="col">Link SSH</td>
+                <td scope="col">Dono</td>
+                <td scope="col">Caminho</td>
+            </tr>
+        </thread>
+        <tbody>
+            {% for p in context.projects %}
+            <tr scope="row">
+                <td>{{p.name}}</td>
+                <td>{{p.ssh_link}}</td>
+                <td>{{p.owner}}</td>
+                <td>{{p.path}}</td>
+            </tr>
+            {% endfor%}
+        </tbody>
+    </table>
+</div>
+{% endblock %}

@@ -36,7 +36,6 @@ def docker_action():
 
 
 @blueprint.route('/docker/<id>/start', methods=['GET'])
-
 def docker_start_container_action(id):
     try:
         client = docker.DockerClient()
