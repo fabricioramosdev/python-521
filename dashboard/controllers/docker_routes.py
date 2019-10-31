@@ -1,6 +1,7 @@
 
 import flask
 import docker
+from services.authentication import login_required
 
 blueprint =  flask.Blueprint('docker',__name__)
 
@@ -22,7 +23,9 @@ def get_containers():
     except docker.errors.DockerException:
         return []
 
+
 @blueprint.route('/docker', methods=['GET','POST'])
+@login_required
 def docker_action():
 
     context = {
@@ -33,6 +36,7 @@ def docker_action():
 
 
 @blueprint.route('/docker/<id>/start', methods=['GET'])
+
 def docker_start_container_action(id):
     try:
         client = docker.DockerClient()

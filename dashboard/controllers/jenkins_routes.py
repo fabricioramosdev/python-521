@@ -1,5 +1,6 @@
 import flask
 import jenkins
+from services.authentication import login_required
 
 
 blueprint = flask.Blueprint('jenkins', __name__)
@@ -45,6 +46,7 @@ def get_jobs():
     return [ fn(j) for j in jobs ]
 
 @blueprint.route('/jenkins', methods=[ 'GET', 'POST' ])
+@login_required
 def jenkins_action():
     context = {
         'route':'jenkins',
@@ -62,4 +64,25 @@ def jenkins_run_action(jobname):
         conn.build_job(jobname)
 
     return flask.redirect('/jenkins')
+
+@blueprint.route('/jenkins/<jobname>/edit', methods=['GET','POST'])
+def jenkins_edit_action(jobname):
+
+    conn = get_jenkins_connection()
+    if flask.request.method == 'POST' and conn:
+        try:
+            conn.reconfig_job(
+                jobname,
+                flask.request.form.get('description').strip()
+            )
+        except:
+            pass
+
+    context = {
+        'route':'jenkins',
+        'job':{'name':jobname, 'description':conn.get_job_config(jobname)\
+            if conn else 'falha na conexão'}
+    }
+
+    return flask.render_template('jenkins-edit.html', context=context)
 

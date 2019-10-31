@@ -25,6 +25,7 @@
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+           
             <ul class="navbar-nav mr-auto">
 
                 <li class="nav-item {{'active' if context.route =='docker' else ''}}">
@@ -47,7 +48,8 @@
                     
 
               
-            </ul>          
+            </ul>    
+            <a href="/sign-out" class="btn btn-success btn-lg mr-5"><i class="fa fa-close"></i>&nbsp;Sair</a>      
         </div>
     </nav>
     {% endif %}
