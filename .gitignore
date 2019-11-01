@@ -10,3 +10,6 @@ __pycache__
 # ignoreando requirements.txt fora do projeto
 */**/requirements.txt
 
+*.logs
+
+*/key.pem

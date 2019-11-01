@@ -38,4 +38,4 @@ def get_home():
 if __name__ == "__main__":
 
     logging.info('Iniciando a aplicação ...')
-    app.run(host='0.0.0.0', port='8000')
+    app.run(host='0.0.0.0', port='5000')
