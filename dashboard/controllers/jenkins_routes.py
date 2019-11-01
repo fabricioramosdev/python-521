@@ -1,3 +1,6 @@
+
+import logging
+
 import flask
 import jenkins
 from services.authentication import login_required
@@ -12,9 +15,15 @@ def get_jenkins_connection():
     username = 'admin' 
     password = '4linux'
 
+    conn = None
+
     try:
-        return jenkins.Jenkins(url, username, password)
-    except:
+        conn = jenkins.Jenkins(url, username, password)
+        conn.get_info()
+        return conn
+
+    except Exception as err:
+        logging.error(f'Falha na conexão com o jenkins: \n{err}')
         return None
 
 def get_jobs():
@@ -75,8 +84,9 @@ def jenkins_edit_action(jobname):
                 jobname,
                 flask.request.form.get('description').strip()
             )
-        except:
-            pass
+        except Exception as err:
+            logging.error(f'Falha ao editar job: \n{err}')
+        
 
     context = {
         'route':'jenkins',

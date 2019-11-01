@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    
+
     <link rel="stylesheet" href="static/css/style.css">
 </head>
 
@@ -25,43 +25,60 @@
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-           
+
             <ul class="navbar-nav mr-auto">
 
                 <li class="nav-item {{'active' if context.route =='docker' else ''}}">
-                    <a class="nav-link" href="/docker">Docker 
-                        {% if context.route =='docker'%}    
-                         <span class="sr-only">(current)</span>
-                         {% endif%}
-                    
-                    </a>
-                </li>   
-                
-                <li class="nav-item {{'active' if context.route =='jenkins' else ''}}">
-                    <a class="nav-link" href="/jenkins">Jenkins
-                        {% if context.route =='jenkins'%}    
+                    <a class="nav-link" href="/docker">Docker
+                        {% if context.route =='docker'%}
                         <span class="sr-only">(current)</span>
                         {% endif%}
-                    
-                    </a>
-                </li>   
-                
-                <li class="nav-item {{'active' if context.route =='gitlab' else ''}}">
-                        <a class="nav-link" href="/gitlab">Gitlab
-                            {% if context.route =='gitlab'%}    
-                            <span class="sr-only">(current)</span>
-                            {% endif%}
-                        
-                        </a>
-                    </li>   
-                        
 
-              
-            </ul>    
-            <a href="/sign-out" class="btn btn-success btn-lg mr-5"><i class="fa fa-close"></i>&nbsp;Sair</a>      
+                    </a>
+                </li>
+
+                <li class="nav-item {{'active' if context.route =='jenkins' else ''}}">
+                    <a class="nav-link" href="/jenkins">Jenkins
+                        {% if context.route =='jenkins'%}
+                        <span class="sr-only">(current)</span>
+                        {% endif%}
+
+                    </a>
+                </li>
+
+                <li class="nav-item {{'active' if context.route =='gitlab' else ''}}">
+                    <a class="nav-link" href="/gitlab">Gitlab
+                        {% if context.route =='gitlab'%}
+                        <span class="sr-only">(current)</span>
+                        {% endif%}
+
+                    </a>
+                </li>
+
+
+
+            </ul>
+            <a href="/sign-out" class="btn btn-success btn-lg mr-5"><i class="fa fa-close"></i>&nbsp;Sair</a>
         </div>
     </nav>
     {% endif %}
+
+
+    {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+        <div class="alerts">
+            {%for category,message in messages %}
+            <div class="alert alert-{{category}} alert-dismissible fade show" role="alert">
+                <span>{{message}}</span>
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            {% endfor %}
+        </div>
+        {% endif%}
+    {% endwith%}
+
     <div class="container mt-4">
         <div class="card shadow">
             <div class="card-header">

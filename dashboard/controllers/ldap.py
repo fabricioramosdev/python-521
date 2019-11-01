@@ -1,3 +1,6 @@
+
+import logging
+
 import flask
 import ldap3
 import hashlib
@@ -12,25 +15,30 @@ def get_ldap_connection():
 
     try:
         return ldap3.Connection(server, user, password, auto_bind=True)
-    except:
+    except Exception as err:
+        logging.error(f'Falha na conexão com ldap: \n{err}')
         print('erro')
         pass
 
 def find_user_by_email(email, conn):    
-      
-    conn.search(
-        'uid={},dc=dexter,dc=com,dc=br'.format(email),
-        '(objectClass=person)',
-        attributes=[
-            'sn',
-            'userPassword'
-        ]
-    )
+
+    try:      
+        conn.search(
+            'uid={},dc=dexter,dc=com,dc=br'.format(email),
+            '(objectClass=person)',
+            attributes=[
+                'sn',
+                'userPassword'
+            ]
+        )
+    except Exception as err:
+        logging.error(f'Falha ao localizar e-mail: \n{err}')
+
 
     return conn.entries[0] if len(conn.entries) > 0 else None
 
 def verify_password(user, password):
-    print(50*'@')
+    
     saved_password = user.userPassword.value.decode()
     return hashlib.sha256(password.encode()).hexdigest()
 
@@ -48,9 +56,16 @@ def sign_in():
         # encontrar o usuário pelo e-mail no ldap
         user = find_user_by_email(email, conn)    
 
-        print(user)
+        if not user:
 
-        if user and verify_password(user, password):
+            logging.info(f'Usuário e-mai\t{email} não encontrado!')
+            flask.flash(f'Usuário e-mai\t{email} não encontrado' , 'warning')
+
+        elif verify_password(user, password):
+
+            logging.info(f'Usuário e-mai\n{email} autenticado com sucesso!')
+            flask.flash(f'Usuário e-mai\n{email} autenticado com sucesso!' , 'success')
+
             flask.session['authenticated'] = True
             return flask.redirect('/')
   
@@ -63,8 +78,8 @@ def sign_in():
 @blueprint.route('/sign-out', methods=['GET','POST'])
 def sign_out():
 
-    try:
+    try:       
         del flask.session['authenticated']
-    except KeyError:
-        pass
+    except KeyError as err:
+        logging.error(f'Falha ao no logout: \n{err}')
     return flask.redirect('/')

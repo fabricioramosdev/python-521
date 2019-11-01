@@ -1,3 +1,6 @@
-label{
-    color:blue
+
+.alerts{
+    position: absolute;
+    z-index: 999;
+
 }

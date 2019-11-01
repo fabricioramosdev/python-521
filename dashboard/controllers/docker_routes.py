@@ -1,4 +1,6 @@
 
+import logging
+
 import flask
 import docker
 from services.authentication import login_required
@@ -20,7 +22,8 @@ def get_containers():
         return [fn(c) for c in client.containers.list(all=True)]
 
 
-    except docker.errors.DockerException:
+    except docker.errors.DockerException as err:
+        logging.error(f'Falha na conexão com o docker: \n{err}')
         return []
 
 
@@ -42,8 +45,8 @@ def docker_start_container_action(id):
         container = client.containers.get(id)
         if container:
             container.start()
-    except docker.errors.DockerException:
-        pass
+    except docker.errors.DockerException as err:
+        logging.error(f'Falha ao iniciar container: \n{err}')
     finally:
         return flask.redirect('/docker')
 
@@ -55,8 +58,9 @@ def docker_stop_container_action(id):
         container = client.containers.get(id)
         if container:
             container.stop()
-    except docker.errors.DockerException:
-        pass
+    except docker.errors.DockerException as err:
+        logging.error(f'Falha ao parar container: \n{err}')
+
     finally:
         return flask.redirect('/docker')
 
