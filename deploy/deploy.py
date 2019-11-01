@@ -13,7 +13,7 @@ client.connect(**opts)
 commands = [
     'git clone https://github.com/fabricioramosdev/python-521',
     'sudo apt install python3-pip -y',
-    'pip install -r python-521/requirements.txt',
+    'pip3 install -r python-521/requirements.txt',
     'pythoh3 python-521/dashboard/app.py &'
 
 ]
