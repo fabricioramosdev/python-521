@@ -40,7 +40,7 @@ def sign_in():
 
     conn = get_ldap_connection()
     
-    if flask.request.method == 'POST':
+    if conn and flask.request.method == 'POST':
        
         email = flask.request.form.get('email')
         password = flask.request.form.get('password')
