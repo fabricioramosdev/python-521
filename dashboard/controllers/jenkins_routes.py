@@ -23,6 +23,7 @@ def get_jenkins_connection():
         return conn
 
     except Exception as err:
+        flask.flash(f'Falha na conexão com o jenkins:\t {err}' , 'danger')
         logging.error(f'Falha na conexão com o jenkins: \n{err}')
         return None
 

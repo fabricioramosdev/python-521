@@ -1,6 +1,7 @@
-
-.alerts{
+.jenkins-messages {
+    width: 30rem;
+    border-radius:50px;
     position: absolute;
     z-index: 999;
-
+    margin-right: 30rem
 }

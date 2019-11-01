@@ -793,3 +793,393 @@ teste@teste.com.br autenticado com sucesso!
 [01/11/2019 11:28:49] [INFO] root [sign_in] [ldap.py | 61] Usuário e-mai	ivan.ferro@4linux.com.br não encontrado!
 [01/11/2019 11:28:51] [INFO] root [sign_in] [ldap.py | 61] Usuário e-mai	ivan.ferro@4linux.com.br não encontrado!
 [01/11/2019 11:28:53] [INFO] root [sign_in] [ldap.py | 61] Usuário e-mai	ivan.ferro@4linux.com.br não encontrado!
+[01/11/2019 11:48:24] [INFO] root [<module>] [app.py | 21] Carregando variáveis de ambiente ...
+[01/11/2019 11:48:24] [INFO] root [<module>] [app.py | 24] Configurando a aplicação ...
+[01/11/2019 11:48:24] [INFO] root [<module>] [app.py | 40] Iniciando a aplicação ...
+[01/11/2019 11:48:30] [INFO] root [sign_in] [ldap.py | 61] Usuário e-mai	ivan.ferro@4linux.com.br não encontrado!
+[01/11/2019 11:48:36] [INFO] root [sign_in] [ldap.py | 66] Usuário e-mai
+teste@teste.com.br autenticado com sucesso!
+[01/11/2019 11:48:36] [DEBUG] docker.utils.config [find_config_file] [config.py | 21] Trying paths: ['/home/developer/.docker/config.json', '/home/developer/.dockercfg']
+[01/11/2019 11:48:36] [DEBUG] docker.utils.config [find_config_file] [config.py | 28] No config file found
+[01/11/2019 11:48:36] [DEBUG] docker.utils.config [find_config_file] [config.py | 21] Trying paths: ['/home/developer/.docker/config.json', '/home/developer/.dockercfg']
+[01/11/2019 11:48:36] [DEBUG] docker.utils.config [find_config_file] [config.py | 28] No config file found
+[01/11/2019 11:48:36] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/containers/json?limit=-1&all=1&size=0&trunc_cmd=0 HTTP/1.1" 200 None
+[01/11/2019 11:48:36] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/containers/cd1ce1cbd2844e2938850330180a6ee416f2eb47bf6275cb68633d8be536fd97/json HTTP/1.1" 200 None
+[01/11/2019 11:48:36] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/containers/11fbe93763f9d9b28091e10eff93c702c0542aeeb3884adbccb7d8e5d14e1758/json HTTP/1.1" 200 None
+[01/11/2019 11:48:36] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/containers/62a2074b9a230ee4f05856091558280580ef079958806584e37ea490818d6990/json HTTP/1.1" 200 None
+[01/11/2019 11:48:36] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/containers/c42360fe4a16e9b8197851ed8a3d5f23f816139f6b2bf8790da399d6d1e14281/json HTTP/1.1" 200 None
+[01/11/2019 11:48:36] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/containers/3b99fdb3b2bc21f6f9c77afb38c37e33c6e785698c2470332666b5bffd130a7b/json HTTP/1.1" 200 None
+[01/11/2019 11:48:36] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/containers/25754fed4e08704072d0f735f976c9ca7a16d128ac872f05795f6dce5931b49b/json HTTP/1.1" 200 None
+[01/11/2019 11:48:36] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/containers/1f8cd7171f64547e8991f475af426fa62a66e1d1ceef354d9b6a3011c9a7a15d/json HTTP/1.1" 200 None
+[01/11/2019 11:48:36] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/containers/19a93fc2ab097823e050806b129e13ccfb5d66f15daf7fb661011e0668aa4ce2/json HTTP/1.1" 200 None
+[01/11/2019 11:48:36] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/images/6d75d1ad2f820e4858847353b01869c420bcdd8c0f4e1a3960db7b8781cc237b/json HTTP/1.1" 200 None
+[01/11/2019 11:48:36] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/images/6d75d1ad2f820e4858847353b01869c420bcdd8c0f4e1a3960db7b8781cc237b/json HTTP/1.1" 200 None
+[01/11/2019 11:48:36] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/images/4c780dfa5f5e85e3c50e500ea3482c5fc70a5c8b5ba8d88de936203da919740b/json HTTP/1.1" 200 None
+[01/11/2019 11:48:36] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/images/4c780dfa5f5e85e3c50e500ea3482c5fc70a5c8b5ba8d88de936203da919740b/json HTTP/1.1" 200 None
+[01/11/2019 11:48:36] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/images/ec2bfee7c2062aadcb72bdf7c58ee44ad31c6f248d2275b3aacc87d06f40f2da/json HTTP/1.1" 200 None
+[01/11/2019 11:48:36] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/images/ec2bfee7c2062aadcb72bdf7c58ee44ad31c6f248d2275b3aacc87d06f40f2da/json HTTP/1.1" 200 None
+[01/11/2019 11:48:36] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/images/ef1323a6d130a1723752666f40a768a0664ef6cf8411ee88b796e8e4dba740fc/json HTTP/1.1" 200 None
+[01/11/2019 11:48:36] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/images/ef1323a6d130a1723752666f40a768a0664ef6cf8411ee88b796e8e4dba740fc/json HTTP/1.1" 200 None
+[01/11/2019 11:48:36] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/images/191b28dbfefe13866bffb0dda6ce3b104319af367eb00a0ea5b9466d490bec3b/json HTTP/1.1" 200 None
+[01/11/2019 11:48:36] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/images/191b28dbfefe13866bffb0dda6ce3b104319af367eb00a0ea5b9466d490bec3b/json HTTP/1.1" 200 None
+[01/11/2019 11:48:36] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/images/2bab5db62b88ca74c5e6e48bfa09aadf60c80e53830852aedaa2719696190911/json HTTP/1.1" 200 None
+[01/11/2019 11:48:36] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/images/0f2a84a8f2d8af3030ff0c8b680c0e322f95a6dd97ab87e2e4f93dd455accc60/json HTTP/1.1" 200 None
+[01/11/2019 11:48:36] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/images/0f2a84a8f2d8af3030ff0c8b680c0e322f95a6dd97ab87e2e4f93dd455accc60/json HTTP/1.1" 200 None
+[01/11/2019 11:48:36] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/images/de7fbf727cbc58fda31f074b02145fa6a710bdbcb81a9cb0367fbd8628d0b545/json HTTP/1.1" 200 None
+[01/11/2019 11:48:38] [DEBUG] urllib3.connectionpool [_new_conn] [connectionpool.py | 225] Starting new HTTP connection (1): localhost:8080
+[01/11/2019 11:48:38] [ERROR] root [get_jenkins_connection] [jenkins_routes.py | 27] Falha na conexão com o jenkins: 
+HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /crumbIssuer/api/json (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f1bf09e6fd0>: Failed to establish a new connection: [Errno 111] Connection refused',))
+[01/11/2019 11:49:18] [INFO] root [<module>] [app.py | 21] Carregando variáveis de ambiente ...
+[01/11/2019 11:49:18] [INFO] root [<module>] [app.py | 24] Configurando a aplicação ...
+[01/11/2019 11:49:18] [INFO] root [<module>] [app.py | 40] Iniciando a aplicação ...
+[01/11/2019 11:49:21] [DEBUG] urllib3.connectionpool [_new_conn] [connectionpool.py | 225] Starting new HTTP connection (1): localhost:8080
+[01/11/2019 11:49:21] [ERROR] root [get_jenkins_connection] [jenkins_routes.py | 27] Falha na conexão com o jenkins: 
+HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /crumbIssuer/api/json (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3c62866b38>: Failed to establish a new connection: [Errno 111] Connection refused',))
+[01/11/2019 11:49:32] [INFO] root [<module>] [app.py | 21] Carregando variáveis de ambiente ...
+[01/11/2019 11:49:32] [INFO] root [<module>] [app.py | 24] Configurando a aplicação ...
+[01/11/2019 11:49:32] [INFO] root [<module>] [app.py | 40] Iniciando a aplicação ...
+[01/11/2019 11:49:35] [DEBUG] urllib3.connectionpool [_new_conn] [connectionpool.py | 225] Starting new HTTP connection (1): localhost:8080
+[01/11/2019 11:49:35] [ERROR] root [get_jenkins_connection] [jenkins_routes.py | 27] Falha na conexão com o jenkins: 
+HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /crumbIssuer/api/json (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f6eb5435ac8>: Failed to establish a new connection: [Errno 111] Connection refused',))
+[01/11/2019 11:49:36] [DEBUG] urllib3.connectionpool [_new_conn] [connectionpool.py | 225] Starting new HTTP connection (1): localhost:8080
+[01/11/2019 11:49:36] [ERROR] root [get_jenkins_connection] [jenkins_routes.py | 27] Falha na conexão com o jenkins: 
+HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /crumbIssuer/api/json (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f6eb4733dd8>: Failed to establish a new connection: [Errno 111] Connection refused',))
+[01/11/2019 11:49:54] [INFO] root [<module>] [app.py | 21] Carregando variáveis de ambiente ...
+[01/11/2019 11:49:54] [INFO] root [<module>] [app.py | 24] Configurando a aplicação ...
+[01/11/2019 11:49:54] [INFO] root [<module>] [app.py | 40] Iniciando a aplicação ...
+[01/11/2019 11:51:52] [DEBUG] urllib3.connectionpool [_new_conn] [connectionpool.py | 225] Starting new HTTP connection (1): localhost:8080
+[01/11/2019 11:51:52] [ERROR] root [get_jenkins_connection] [jenkins_routes.py | 27] Falha na conexão com o jenkins: 
+HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /crumbIssuer/api/json (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f85419a6b70>: Failed to establish a new connection: [Errno 111] Connection refused',))
+[01/11/2019 11:51:53] [DEBUG] urllib3.connectionpool [_new_conn] [connectionpool.py | 225] Starting new HTTP connection (1): localhost:8080
+[01/11/2019 11:51:53] [ERROR] root [get_jenkins_connection] [jenkins_routes.py | 27] Falha na conexão com o jenkins: 
+HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /crumbIssuer/api/json (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f854074ee48>: Failed to establish a new connection: [Errno 111] Connection refused',))
+[01/11/2019 11:51:53] [DEBUG] urllib3.connectionpool [_new_conn] [connectionpool.py | 225] Starting new HTTP connection (1): localhost:8080
+[01/11/2019 11:51:53] [ERROR] root [get_jenkins_connection] [jenkins_routes.py | 27] Falha na conexão com o jenkins: 
+HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /crumbIssuer/api/json (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f854074e898>: Failed to establish a new connection: [Errno 111] Connection refused',))
+[01/11/2019 11:51:54] [DEBUG] urllib3.connectionpool [_new_conn] [connectionpool.py | 225] Starting new HTTP connection (1): localhost:8080
+[01/11/2019 11:51:54] [ERROR] root [get_jenkins_connection] [jenkins_routes.py | 27] Falha na conexão com o jenkins: 
+HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /crumbIssuer/api/json (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f8540750e48>: Failed to establish a new connection: [Errno 111] Connection refused',))
+[01/11/2019 11:51:54] [DEBUG] urllib3.connectionpool [_new_conn] [connectionpool.py | 225] Starting new HTTP connection (1): localhost:8080
+[01/11/2019 11:51:54] [ERROR] root [get_jenkins_connection] [jenkins_routes.py | 27] Falha na conexão com o jenkins: 
+HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /crumbIssuer/api/json (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f85407704e0>: Failed to establish a new connection: [Errno 111] Connection refused',))
+[01/11/2019 11:52:13] [DEBUG] urllib3.connectionpool [_new_conn] [connectionpool.py | 225] Starting new HTTP connection (1): localhost:8080
+[01/11/2019 11:52:13] [ERROR] root [get_jenkins_connection] [jenkins_routes.py | 27] Falha na conexão com o jenkins: 
+HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /crumbIssuer/api/json (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f8540783438>: Failed to establish a new connection: [Errno 111] Connection refused',))
+[01/11/2019 11:52:14] [DEBUG] urllib3.connectionpool [_new_conn] [connectionpool.py | 225] Starting new HTTP connection (1): localhost:8080
+[01/11/2019 11:52:14] [ERROR] root [get_jenkins_connection] [jenkins_routes.py | 27] Falha na conexão com o jenkins: 
+HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /crumbIssuer/api/json (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f8540770208>: Failed to establish a new connection: [Errno 111] Connection refused',))
+[01/11/2019 11:52:14] [DEBUG] urllib3.connectionpool [_new_conn] [connectionpool.py | 225] Starting new HTTP connection (1): localhost:8080
+[01/11/2019 11:52:14] [ERROR] root [get_jenkins_connection] [jenkins_routes.py | 27] Falha na conexão com o jenkins: 
+HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /crumbIssuer/api/json (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f8540750cc0>: Failed to establish a new connection: [Errno 111] Connection refused',))
+[01/11/2019 11:52:15] [DEBUG] urllib3.connectionpool [_new_conn] [connectionpool.py | 225] Starting new HTTP connection (1): localhost:8080
+[01/11/2019 11:52:15] [ERROR] root [get_jenkins_connection] [jenkins_routes.py | 27] Falha na conexão com o jenkins: 
+HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /crumbIssuer/api/json (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f854074eda0>: Failed to establish a new connection: [Errno 111] Connection refused',))
+[01/11/2019 11:52:15] [DEBUG] urllib3.connectionpool [_new_conn] [connectionpool.py | 225] Starting new HTTP connection (1): localhost:8080
+[01/11/2019 11:52:15] [ERROR] root [get_jenkins_connection] [jenkins_routes.py | 27] Falha na conexão com o jenkins: 
+HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /crumbIssuer/api/json (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f8540783080>: Failed to establish a new connection: [Errno 111] Connection refused',))
+[01/11/2019 11:52:15] [DEBUG] urllib3.connectionpool [_new_conn] [connectionpool.py | 225] Starting new HTTP connection (1): localhost:8080
+[01/11/2019 11:52:15] [ERROR] root [get_jenkins_connection] [jenkins_routes.py | 27] Falha na conexão com o jenkins: 
+HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /crumbIssuer/api/json (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f854074ee80>: Failed to establish a new connection: [Errno 111] Connection refused',))
+[01/11/2019 11:52:15] [DEBUG] urllib3.connectionpool [_new_conn] [connectionpool.py | 225] Starting new HTTP connection (1): localhost:8080
+[01/11/2019 11:52:15] [ERROR] root [get_jenkins_connection] [jenkins_routes.py | 27] Falha na conexão com o jenkins: 
+HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /crumbIssuer/api/json (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f8540750cf8>: Failed to establish a new connection: [Errno 111] Connection refused',))
+[01/11/2019 11:52:15] [DEBUG] urllib3.connectionpool [_new_conn] [connectionpool.py | 225] Starting new HTTP connection (1): localhost:8080
+[01/11/2019 11:52:15] [ERROR] root [get_jenkins_connection] [jenkins_routes.py | 27] Falha na conexão com o jenkins: 
+HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /crumbIssuer/api/json (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f8540770518>: Failed to establish a new connection: [Errno 111] Connection refused',))
+[01/11/2019 11:52:15] [DEBUG] urllib3.connectionpool [_new_conn] [connectionpool.py | 225] Starting new HTTP connection (1): localhost:8080
+[01/11/2019 11:52:15] [ERROR] root [get_jenkins_connection] [jenkins_routes.py | 27] Falha na conexão com o jenkins: 
+HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /crumbIssuer/api/json (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f8540783358>: Failed to establish a new connection: [Errno 111] Connection refused',))
+[01/11/2019 11:52:16] [DEBUG] urllib3.connectionpool [_new_conn] [connectionpool.py | 225] Starting new HTTP connection (1): localhost:8080
+[01/11/2019 11:52:16] [ERROR] root [get_jenkins_connection] [jenkins_routes.py | 27] Falha na conexão com o jenkins: 
+HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /crumbIssuer/api/json (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f8540770cc0>: Failed to establish a new connection: [Errno 111] Connection refused',))
+[01/11/2019 11:52:16] [DEBUG] urllib3.connectionpool [_new_conn] [connectionpool.py | 225] Starting new HTTP connection (1): localhost:8080
+[01/11/2019 11:52:16] [ERROR] root [get_jenkins_connection] [jenkins_routes.py | 27] Falha na conexão com o jenkins: 
+HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /crumbIssuer/api/json (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f8540750a58>: Failed to establish a new connection: [Errno 111] Connection refused',))
+[01/11/2019 11:52:16] [DEBUG] urllib3.connectionpool [_new_conn] [connectionpool.py | 225] Starting new HTTP connection (1): localhost:8080
+[01/11/2019 11:52:16] [ERROR] root [get_jenkins_connection] [jenkins_routes.py | 27] Falha na conexão com o jenkins: 
+HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /crumbIssuer/api/json (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f85407830b8>: Failed to establish a new connection: [Errno 111] Connection refused',))
+[01/11/2019 11:52:16] [DEBUG] urllib3.connectionpool [_new_conn] [connectionpool.py | 225] Starting new HTTP connection (1): localhost:8080
+[01/11/2019 11:52:16] [ERROR] root [get_jenkins_connection] [jenkins_routes.py | 27] Falha na conexão com o jenkins: 
+HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /crumbIssuer/api/json (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f854074e128>: Failed to establish a new connection: [Errno 111] Connection refused',))
+[01/11/2019 11:52:17] [DEBUG] urllib3.connectionpool [_new_conn] [connectionpool.py | 225] Starting new HTTP connection (1): localhost:8080
+[01/11/2019 11:52:17] [ERROR] root [get_jenkins_connection] [jenkins_routes.py | 27] Falha na conexão com o jenkins: 
+HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /crumbIssuer/api/json (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f8540783550>: Failed to establish a new connection: [Errno 111] Connection refused',))
+[01/11/2019 11:52:17] [DEBUG] urllib3.connectionpool [_new_conn] [connectionpool.py | 225] Starting new HTTP connection (1): localhost:8080
+[01/11/2019 11:52:17] [ERROR] root [get_jenkins_connection] [jenkins_routes.py | 27] Falha na conexão com o jenkins: 
+HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /crumbIssuer/api/json (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f8540770780>: Failed to establish a new connection: [Errno 111] Connection refused',))
+[01/11/2019 11:52:29] [DEBUG] urllib3.connectionpool [_new_conn] [connectionpool.py | 225] Starting new HTTP connection (1): localhost:8080
+[01/11/2019 11:52:29] [ERROR] root [get_jenkins_connection] [jenkins_routes.py | 27] Falha na conexão com o jenkins: 
+HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /crumbIssuer/api/json (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f8540750710>: Failed to establish a new connection: [Errno 111] Connection refused',))
+[01/11/2019 11:52:30] [DEBUG] urllib3.connectionpool [_new_conn] [connectionpool.py | 225] Starting new HTTP connection (1): localhost:8080
+[01/11/2019 11:52:30] [ERROR] root [get_jenkins_connection] [jenkins_routes.py | 27] Falha na conexão com o jenkins: 
+HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /crumbIssuer/api/json (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f854074e828>: Failed to establish a new connection: [Errno 111] Connection refused',))
+[01/11/2019 11:52:31] [DEBUG] urllib3.connectionpool [_new_conn] [connectionpool.py | 225] Starting new HTTP connection (1): localhost:8080
+[01/11/2019 11:52:31] [ERROR] root [get_jenkins_connection] [jenkins_routes.py | 27] Falha na conexão com o jenkins: 
+HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /crumbIssuer/api/json (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f85407706d8>: Failed to establish a new connection: [Errno 111] Connection refused',))
+[01/11/2019 11:52:31] [DEBUG] urllib3.connectionpool [_new_conn] [connectionpool.py | 225] Starting new HTTP connection (1): localhost:8080
+[01/11/2019 11:52:31] [ERROR] root [get_jenkins_connection] [jenkins_routes.py | 27] Falha na conexão com o jenkins: 
+HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /crumbIssuer/api/json (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f854074e3c8>: Failed to establish a new connection: [Errno 111] Connection refused',))
+[01/11/2019 11:52:31] [DEBUG] urllib3.connectionpool [_new_conn] [connectionpool.py | 225] Starting new HTTP connection (1): localhost:8080
+[01/11/2019 11:52:31] [ERROR] root [get_jenkins_connection] [jenkins_routes.py | 27] Falha na conexão com o jenkins: 
+HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /crumbIssuer/api/json (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f85419a6cc0>: Failed to establish a new connection: [Errno 111] Connection refused',))
+[01/11/2019 11:52:32] [DEBUG] urllib3.connectionpool [_new_conn] [connectionpool.py | 225] Starting new HTTP connection (1): localhost:8080
+[01/11/2019 11:52:32] [ERROR] root [get_jenkins_connection] [jenkins_routes.py | 27] Falha na conexão com o jenkins: 
+HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /crumbIssuer/api/json (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f8540783eb8>: Failed to establish a new connection: [Errno 111] Connection refused',))
+[01/11/2019 11:52:32] [DEBUG] urllib3.connectionpool [_new_conn] [connectionpool.py | 225] Starting new HTTP connection (1): localhost:8080
+[01/11/2019 11:52:32] [ERROR] root [get_jenkins_connection] [jenkins_routes.py | 27] Falha na conexão com o jenkins: 
+HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /crumbIssuer/api/json (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f854074e358>: Failed to establish a new connection: [Errno 111] Connection refused',))
+[01/11/2019 11:52:32] [DEBUG] urllib3.connectionpool [_new_conn] [connectionpool.py | 225] Starting new HTTP connection (1): localhost:8080
+[01/11/2019 11:52:32] [ERROR] root [get_jenkins_connection] [jenkins_routes.py | 27] Falha na conexão com o jenkins: 
+HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /crumbIssuer/api/json (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f8540750748>: Failed to establish a new connection: [Errno 111] Connection refused',))
+[01/11/2019 11:52:32] [DEBUG] urllib3.connectionpool [_new_conn] [connectionpool.py | 225] Starting new HTTP connection (1): localhost:8080
+[01/11/2019 11:52:32] [ERROR] root [get_jenkins_connection] [jenkins_routes.py | 27] Falha na conexão com o jenkins: 
+HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /crumbIssuer/api/json (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f85407500b8>: Failed to establish a new connection: [Errno 111] Connection refused',))
+[01/11/2019 11:52:32] [DEBUG] urllib3.connectionpool [_new_conn] [connectionpool.py | 225] Starting new HTTP connection (1): localhost:8080
+[01/11/2019 11:52:32] [ERROR] root [get_jenkins_connection] [jenkins_routes.py | 27] Falha na conexão com o jenkins: 
+HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /crumbIssuer/api/json (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f854074ea58>: Failed to establish a new connection: [Errno 111] Connection refused',))
+[01/11/2019 11:52:52] [DEBUG] urllib3.connectionpool [_new_conn] [connectionpool.py | 225] Starting new HTTP connection (1): localhost:8080
+[01/11/2019 11:52:52] [ERROR] root [get_jenkins_connection] [jenkins_routes.py | 27] Falha na conexão com o jenkins: 
+HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /crumbIssuer/api/json (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f8540783208>: Failed to establish a new connection: [Errno 111] Connection refused',))
+[01/11/2019 11:53:25] [DEBUG] urllib3.connectionpool [_new_conn] [connectionpool.py | 225] Starting new HTTP connection (1): localhost:8080
+[01/11/2019 11:53:25] [ERROR] root [get_jenkins_connection] [jenkins_routes.py | 27] Falha na conexão com o jenkins: 
+HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /crumbIssuer/api/json (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f8540706d30>: Failed to establish a new connection: [Errno 111] Connection refused',))
+[01/11/2019 11:53:41] [DEBUG] urllib3.connectionpool [_new_conn] [connectionpool.py | 225] Starting new HTTP connection (1): localhost:8080
+[01/11/2019 11:53:41] [ERROR] root [get_jenkins_connection] [jenkins_routes.py | 27] Falha na conexão com o jenkins: 
+HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /crumbIssuer/api/json (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f8540783be0>: Failed to establish a new connection: [Errno 111] Connection refused',))
+[01/11/2019 11:54:13] [DEBUG] urllib3.connectionpool [_new_conn] [connectionpool.py | 225] Starting new HTTP connection (1): localhost:8080
+[01/11/2019 11:54:13] [ERROR] root [get_jenkins_connection] [jenkins_routes.py | 27] Falha na conexão com o jenkins: 
+HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /crumbIssuer/api/json (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f854074ecf8>: Failed to establish a new connection: [Errno 111] Connection refused',))
+[01/11/2019 11:54:14] [DEBUG] urllib3.connectionpool [_new_conn] [connectionpool.py | 225] Starting new HTTP connection (1): localhost:8080
+[01/11/2019 11:54:14] [ERROR] root [get_jenkins_connection] [jenkins_routes.py | 27] Falha na conexão com o jenkins: 
+HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /crumbIssuer/api/json (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f8540706630>: Failed to establish a new connection: [Errno 111] Connection refused',))
+[01/11/2019 11:54:14] [DEBUG] urllib3.connectionpool [_new_conn] [connectionpool.py | 225] Starting new HTTP connection (1): localhost:8080
+[01/11/2019 11:54:14] [ERROR] root [get_jenkins_connection] [jenkins_routes.py | 27] Falha na conexão com o jenkins: 
+HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /crumbIssuer/api/json (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f8540770ef0>: Failed to establish a new connection: [Errno 111] Connection refused',))
+[01/11/2019 11:54:14] [DEBUG] urllib3.connectionpool [_new_conn] [connectionpool.py | 225] Starting new HTTP connection (1): localhost:8080
+[01/11/2019 11:54:14] [ERROR] root [get_jenkins_connection] [jenkins_routes.py | 27] Falha na conexão com o jenkins: 
+HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /crumbIssuer/api/json (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f854074e128>: Failed to establish a new connection: [Errno 111] Connection refused',))
+[01/11/2019 11:54:14] [DEBUG] urllib3.connectionpool [_new_conn] [connectionpool.py | 225] Starting new HTTP connection (1): localhost:8080
+[01/11/2019 11:54:14] [ERROR] root [get_jenkins_connection] [jenkins_routes.py | 27] Falha na conexão com o jenkins: 
+HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /crumbIssuer/api/json (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f8540783b00>: Failed to establish a new connection: [Errno 111] Connection refused',))
+[01/11/2019 11:54:14] [DEBUG] urllib3.connectionpool [_new_conn] [connectionpool.py | 225] Starting new HTTP connection (1): localhost:8080
+[01/11/2019 11:54:14] [ERROR] root [get_jenkins_connection] [jenkins_routes.py | 27] Falha na conexão com o jenkins: 
+HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /crumbIssuer/api/json (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f8540783b38>: Failed to establish a new connection: [Errno 111] Connection refused',))
+[01/11/2019 11:54:16] [DEBUG] urllib3.connectionpool [_new_conn] [connectionpool.py | 225] Starting new HTTP connection (1): localhost:8080
+[01/11/2019 11:54:16] [ERROR] root [get_jenkins_connection] [jenkins_routes.py | 27] Falha na conexão com o jenkins: 
+HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /crumbIssuer/api/json (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f8540770a58>: Failed to establish a new connection: [Errno 111] Connection refused',))
+[01/11/2019 11:54:17] [DEBUG] urllib3.connectionpool [_new_conn] [connectionpool.py | 225] Starting new HTTP connection (1): localhost:8080
+[01/11/2019 11:54:17] [ERROR] root [get_jenkins_connection] [jenkins_routes.py | 27] Falha na conexão com o jenkins: 
+HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /crumbIssuer/api/json (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f8540706f98>: Failed to establish a new connection: [Errno 111] Connection refused',))
+[01/11/2019 11:54:17] [DEBUG] urllib3.connectionpool [_new_conn] [connectionpool.py | 225] Starting new HTTP connection (1): localhost:8080
+[01/11/2019 11:54:17] [ERROR] root [get_jenkins_connection] [jenkins_routes.py | 27] Falha na conexão com o jenkins: 
+HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /crumbIssuer/api/json (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f8540750cc0>: Failed to establish a new connection: [Errno 111] Connection refused',))
+[01/11/2019 11:54:18] [DEBUG] urllib3.connectionpool [_new_conn] [connectionpool.py | 225] Starting new HTTP connection (1): localhost:8080
+[01/11/2019 11:54:18] [ERROR] root [get_jenkins_connection] [jenkins_routes.py | 27] Falha na conexão com o jenkins: 
+HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /crumbIssuer/api/json (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f854074e550>: Failed to establish a new connection: [Errno 111] Connection refused',))
+[01/11/2019 11:54:18] [DEBUG] urllib3.connectionpool [_new_conn] [connectionpool.py | 225] Starting new HTTP connection (1): localhost:8080
+[01/11/2019 11:54:18] [ERROR] root [get_jenkins_connection] [jenkins_routes.py | 27] Falha na conexão com o jenkins: 
+HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /crumbIssuer/api/json (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f8540706c50>: Failed to establish a new connection: [Errno 111] Connection refused',))
+[01/11/2019 11:54:18] [DEBUG] urllib3.connectionpool [_new_conn] [connectionpool.py | 225] Starting new HTTP connection (1): localhost:8080
+[01/11/2019 11:54:18] [ERROR] root [get_jenkins_connection] [jenkins_routes.py | 27] Falha na conexão com o jenkins: 
+HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /crumbIssuer/api/json (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f85407065c0>: Failed to establish a new connection: [Errno 111] Connection refused',))
+[01/11/2019 11:54:19] [DEBUG] urllib3.connectionpool [_new_conn] [connectionpool.py | 225] Starting new HTTP connection (1): localhost:8080
+[01/11/2019 11:54:19] [ERROR] root [get_jenkins_connection] [jenkins_routes.py | 27] Falha na conexão com o jenkins: 
+HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /crumbIssuer/api/json (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f854074eac8>: Failed to establish a new connection: [Errno 111] Connection refused',))
+[01/11/2019 11:54:20] [DEBUG] urllib3.connectionpool [_new_conn] [connectionpool.py | 225] Starting new HTTP connection (1): localhost:8080
+[01/11/2019 11:54:20] [ERROR] root [get_jenkins_connection] [jenkins_routes.py | 27] Falha na conexão com o jenkins: 
+HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /crumbIssuer/api/json (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f85407709e8>: Failed to establish a new connection: [Errno 111] Connection refused',))
+[01/11/2019 11:55:01] [DEBUG] urllib3.connectionpool [_new_conn] [connectionpool.py | 225] Starting new HTTP connection (1): localhost:8080
+[01/11/2019 11:55:01] [ERROR] root [get_jenkins_connection] [jenkins_routes.py | 27] Falha na conexão com o jenkins: 
+HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /crumbIssuer/api/json (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f8540770828>: Failed to establish a new connection: [Errno 111] Connection refused',))
+[01/11/2019 11:55:04] [DEBUG] urllib3.connectionpool [_new_conn] [connectionpool.py | 225] Starting new HTTP connection (1): localhost:8080
+[01/11/2019 11:55:04] [ERROR] root [get_jenkins_connection] [jenkins_routes.py | 27] Falha na conexão com o jenkins: 
+HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /crumbIssuer/api/json (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f854074ed68>: Failed to establish a new connection: [Errno 111] Connection refused',))
+[01/11/2019 11:55:05] [DEBUG] urllib3.connectionpool [_new_conn] [connectionpool.py | 225] Starting new HTTP connection (1): localhost:8080
+[01/11/2019 11:55:05] [ERROR] root [get_jenkins_connection] [jenkins_routes.py | 27] Falha na conexão com o jenkins: 
+HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /crumbIssuer/api/json (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f8540715588>: Failed to establish a new connection: [Errno 111] Connection refused',))
+[01/11/2019 11:55:05] [DEBUG] urllib3.connectionpool [_new_conn] [connectionpool.py | 225] Starting new HTTP connection (1): localhost:8080
+[01/11/2019 11:55:05] [ERROR] root [get_jenkins_connection] [jenkins_routes.py | 27] Falha na conexão com o jenkins: 
+HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /crumbIssuer/api/json (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f8540715fd0>: Failed to establish a new connection: [Errno 111] Connection refused',))
+[01/11/2019 11:55:05] [DEBUG] urllib3.connectionpool [_new_conn] [connectionpool.py | 225] Starting new HTTP connection (1): localhost:8080
+[01/11/2019 11:55:05] [ERROR] root [get_jenkins_connection] [jenkins_routes.py | 27] Falha na conexão com o jenkins: 
+HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /crumbIssuer/api/json (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f8540783a20>: Failed to establish a new connection: [Errno 111] Connection refused',))
+[01/11/2019 11:55:05] [DEBUG] urllib3.connectionpool [_new_conn] [connectionpool.py | 225] Starting new HTTP connection (1): localhost:8080
+[01/11/2019 11:55:05] [ERROR] root [get_jenkins_connection] [jenkins_routes.py | 27] Falha na conexão com o jenkins: 
+HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /crumbIssuer/api/json (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f854074ecc0>: Failed to establish a new connection: [Errno 111] Connection refused',))
+[01/11/2019 11:55:05] [DEBUG] urllib3.connectionpool [_new_conn] [connectionpool.py | 225] Starting new HTTP connection (1): localhost:8080
+[01/11/2019 11:55:05] [ERROR] root [get_jenkins_connection] [jenkins_routes.py | 27] Falha na conexão com o jenkins: 
+HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /crumbIssuer/api/json (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f854071d5f8>: Failed to establish a new connection: [Errno 111] Connection refused',))
+[01/11/2019 11:55:06] [DEBUG] urllib3.connectionpool [_new_conn] [connectionpool.py | 225] Starting new HTTP connection (1): localhost:8080
+[01/11/2019 11:55:06] [ERROR] root [get_jenkins_connection] [jenkins_routes.py | 27] Falha na conexão com o jenkins: 
+HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /crumbIssuer/api/json (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f854074e080>: Failed to establish a new connection: [Errno 111] Connection refused',))
+[01/11/2019 11:55:06] [DEBUG] urllib3.connectionpool [_new_conn] [connectionpool.py | 225] Starting new HTTP connection (1): localhost:8080
+[01/11/2019 11:55:06] [ERROR] root [get_jenkins_connection] [jenkins_routes.py | 27] Falha na conexão com o jenkins: 
+HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /crumbIssuer/api/json (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f8540706908>: Failed to establish a new connection: [Errno 111] Connection refused',))
+[01/11/2019 11:55:08] [DEBUG] urllib3.connectionpool [_new_conn] [connectionpool.py | 225] Starting new HTTP connection (1): localhost:8080
+[01/11/2019 11:55:08] [ERROR] root [get_jenkins_connection] [jenkins_routes.py | 27] Falha na conexão com o jenkins: 
+HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /crumbIssuer/api/json (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f854071d2b0>: Failed to establish a new connection: [Errno 111] Connection refused',))
+[01/11/2019 11:55:08] [DEBUG] urllib3.connectionpool [_new_conn] [connectionpool.py | 225] Starting new HTTP connection (1): localhost:8080
+[01/11/2019 11:55:08] [ERROR] root [get_jenkins_connection] [jenkins_routes.py | 27] Falha na conexão com o jenkins: 
+HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /crumbIssuer/api/json (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f8540770e80>: Failed to establish a new connection: [Errno 111] Connection refused',))
+[01/11/2019 11:55:08] [DEBUG] urllib3.connectionpool [_new_conn] [connectionpool.py | 225] Starting new HTTP connection (1): localhost:8080
+[01/11/2019 11:55:08] [ERROR] root [get_jenkins_connection] [jenkins_routes.py | 27] Falha na conexão com o jenkins: 
+HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /crumbIssuer/api/json (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f8540783358>: Failed to establish a new connection: [Errno 111] Connection refused',))
+[01/11/2019 11:56:22] [DEBUG] urllib3.connectionpool [_new_conn] [connectionpool.py | 225] Starting new HTTP connection (1): localhost:8080
+[01/11/2019 11:56:22] [ERROR] root [get_jenkins_connection] [jenkins_routes.py | 27] Falha na conexão com o jenkins: 
+HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /crumbIssuer/api/json (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f8540706630>: Failed to establish a new connection: [Errno 111] Connection refused',))
+[01/11/2019 13:27:18] [DEBUG] urllib3.connectionpool [_new_conn] [connectionpool.py | 225] Starting new HTTP connection (1): localhost:8080
+[01/11/2019 13:27:18] [ERROR] root [get_jenkins_connection] [jenkins_routes.py | 27] Falha na conexão com o jenkins: 
+HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /crumbIssuer/api/json (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f8541c15fd0>: Failed to establish a new connection: [Errno 111] Connection refused',))
+[01/11/2019 13:27:19] [DEBUG] docker.utils.config [find_config_file] [config.py | 21] Trying paths: ['/home/developer/.docker/config.json', '/home/developer/.dockercfg']
+[01/11/2019 13:27:19] [DEBUG] docker.utils.config [find_config_file] [config.py | 28] No config file found
+[01/11/2019 13:27:19] [DEBUG] docker.utils.config [find_config_file] [config.py | 21] Trying paths: ['/home/developer/.docker/config.json', '/home/developer/.dockercfg']
+[01/11/2019 13:27:19] [DEBUG] docker.utils.config [find_config_file] [config.py | 28] No config file found
+[01/11/2019 13:27:20] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/containers/json?limit=-1&all=1&size=0&trunc_cmd=0 HTTP/1.1" 200 None
+[01/11/2019 13:27:20] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/containers/cd1ce1cbd2844e2938850330180a6ee416f2eb47bf6275cb68633d8be536fd97/json HTTP/1.1" 200 None
+[01/11/2019 13:27:20] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/containers/11fbe93763f9d9b28091e10eff93c702c0542aeeb3884adbccb7d8e5d14e1758/json HTTP/1.1" 200 None
+[01/11/2019 13:27:20] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/containers/62a2074b9a230ee4f05856091558280580ef079958806584e37ea490818d6990/json HTTP/1.1" 200 None
+[01/11/2019 13:27:20] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/containers/c42360fe4a16e9b8197851ed8a3d5f23f816139f6b2bf8790da399d6d1e14281/json HTTP/1.1" 200 None
+[01/11/2019 13:27:20] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/containers/3b99fdb3b2bc21f6f9c77afb38c37e33c6e785698c2470332666b5bffd130a7b/json HTTP/1.1" 200 None
+[01/11/2019 13:27:20] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/containers/25754fed4e08704072d0f735f976c9ca7a16d128ac872f05795f6dce5931b49b/json HTTP/1.1" 200 None
+[01/11/2019 13:27:20] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/containers/1f8cd7171f64547e8991f475af426fa62a66e1d1ceef354d9b6a3011c9a7a15d/json HTTP/1.1" 200 None
+[01/11/2019 13:27:20] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/containers/19a93fc2ab097823e050806b129e13ccfb5d66f15daf7fb661011e0668aa4ce2/json HTTP/1.1" 200 None
+[01/11/2019 13:27:20] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/images/6d75d1ad2f820e4858847353b01869c420bcdd8c0f4e1a3960db7b8781cc237b/json HTTP/1.1" 200 None
+[01/11/2019 13:27:20] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/images/6d75d1ad2f820e4858847353b01869c420bcdd8c0f4e1a3960db7b8781cc237b/json HTTP/1.1" 200 None
+[01/11/2019 13:27:20] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/images/4c780dfa5f5e85e3c50e500ea3482c5fc70a5c8b5ba8d88de936203da919740b/json HTTP/1.1" 200 None
+[01/11/2019 13:27:20] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/images/4c780dfa5f5e85e3c50e500ea3482c5fc70a5c8b5ba8d88de936203da919740b/json HTTP/1.1" 200 None
+[01/11/2019 13:27:20] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/images/ec2bfee7c2062aadcb72bdf7c58ee44ad31c6f248d2275b3aacc87d06f40f2da/json HTTP/1.1" 200 None
+[01/11/2019 13:27:20] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/images/ec2bfee7c2062aadcb72bdf7c58ee44ad31c6f248d2275b3aacc87d06f40f2da/json HTTP/1.1" 200 None
+[01/11/2019 13:27:20] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/images/ef1323a6d130a1723752666f40a768a0664ef6cf8411ee88b796e8e4dba740fc/json HTTP/1.1" 200 None
+[01/11/2019 13:27:20] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/images/ef1323a6d130a1723752666f40a768a0664ef6cf8411ee88b796e8e4dba740fc/json HTTP/1.1" 200 None
+[01/11/2019 13:27:20] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/images/191b28dbfefe13866bffb0dda6ce3b104319af367eb00a0ea5b9466d490bec3b/json HTTP/1.1" 200 None
+[01/11/2019 13:27:21] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/images/191b28dbfefe13866bffb0dda6ce3b104319af367eb00a0ea5b9466d490bec3b/json HTTP/1.1" 200 None
+[01/11/2019 13:27:21] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/images/2bab5db62b88ca74c5e6e48bfa09aadf60c80e53830852aedaa2719696190911/json HTTP/1.1" 200 None
+[01/11/2019 13:27:21] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/images/0f2a84a8f2d8af3030ff0c8b680c0e322f95a6dd97ab87e2e4f93dd455accc60/json HTTP/1.1" 200 None
+[01/11/2019 13:27:21] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/images/0f2a84a8f2d8af3030ff0c8b680c0e322f95a6dd97ab87e2e4f93dd455accc60/json HTTP/1.1" 200 None
+[01/11/2019 13:27:21] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/images/de7fbf727cbc58fda31f074b02145fa6a710bdbcb81a9cb0367fbd8628d0b545/json HTTP/1.1" 200 None
+[01/11/2019 13:27:23] [DEBUG] docker.utils.config [find_config_file] [config.py | 21] Trying paths: ['/home/developer/.docker/config.json', '/home/developer/.dockercfg']
+[01/11/2019 13:27:23] [DEBUG] docker.utils.config [find_config_file] [config.py | 28] No config file found
+[01/11/2019 13:27:23] [DEBUG] docker.utils.config [find_config_file] [config.py | 21] Trying paths: ['/home/developer/.docker/config.json', '/home/developer/.dockercfg']
+[01/11/2019 13:27:23] [DEBUG] docker.utils.config [find_config_file] [config.py | 28] No config file found
+[01/11/2019 13:27:23] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/containers/json?limit=-1&all=1&size=0&trunc_cmd=0 HTTP/1.1" 200 None
+[01/11/2019 13:27:23] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/containers/cd1ce1cbd2844e2938850330180a6ee416f2eb47bf6275cb68633d8be536fd97/json HTTP/1.1" 200 None
+[01/11/2019 13:27:23] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/containers/11fbe93763f9d9b28091e10eff93c702c0542aeeb3884adbccb7d8e5d14e1758/json HTTP/1.1" 200 None
+[01/11/2019 13:27:23] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/containers/62a2074b9a230ee4f05856091558280580ef079958806584e37ea490818d6990/json HTTP/1.1" 200 None
+[01/11/2019 13:27:23] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/containers/c42360fe4a16e9b8197851ed8a3d5f23f816139f6b2bf8790da399d6d1e14281/json HTTP/1.1" 200 None
+[01/11/2019 13:27:23] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/containers/3b99fdb3b2bc21f6f9c77afb38c37e33c6e785698c2470332666b5bffd130a7b/json HTTP/1.1" 200 None
+[01/11/2019 13:27:23] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/containers/25754fed4e08704072d0f735f976c9ca7a16d128ac872f05795f6dce5931b49b/json HTTP/1.1" 200 None
+[01/11/2019 13:27:23] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/containers/1f8cd7171f64547e8991f475af426fa62a66e1d1ceef354d9b6a3011c9a7a15d/json HTTP/1.1" 200 None
+[01/11/2019 13:27:23] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/containers/19a93fc2ab097823e050806b129e13ccfb5d66f15daf7fb661011e0668aa4ce2/json HTTP/1.1" 200 None
+[01/11/2019 13:27:23] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/images/6d75d1ad2f820e4858847353b01869c420bcdd8c0f4e1a3960db7b8781cc237b/json HTTP/1.1" 200 None
+[01/11/2019 13:27:23] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/images/6d75d1ad2f820e4858847353b01869c420bcdd8c0f4e1a3960db7b8781cc237b/json HTTP/1.1" 200 None
+[01/11/2019 13:27:23] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/images/4c780dfa5f5e85e3c50e500ea3482c5fc70a5c8b5ba8d88de936203da919740b/json HTTP/1.1" 200 None
+[01/11/2019 13:27:23] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/images/4c780dfa5f5e85e3c50e500ea3482c5fc70a5c8b5ba8d88de936203da919740b/json HTTP/1.1" 200 None
+[01/11/2019 13:27:23] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/images/ec2bfee7c2062aadcb72bdf7c58ee44ad31c6f248d2275b3aacc87d06f40f2da/json HTTP/1.1" 200 None
+[01/11/2019 13:27:23] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/images/ec2bfee7c2062aadcb72bdf7c58ee44ad31c6f248d2275b3aacc87d06f40f2da/json HTTP/1.1" 200 None
+[01/11/2019 13:27:23] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/images/ef1323a6d130a1723752666f40a768a0664ef6cf8411ee88b796e8e4dba740fc/json HTTP/1.1" 200 None
+[01/11/2019 13:27:23] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/images/ef1323a6d130a1723752666f40a768a0664ef6cf8411ee88b796e8e4dba740fc/json HTTP/1.1" 200 None
+[01/11/2019 13:27:23] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/images/191b28dbfefe13866bffb0dda6ce3b104319af367eb00a0ea5b9466d490bec3b/json HTTP/1.1" 200 None
+[01/11/2019 13:27:23] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/images/191b28dbfefe13866bffb0dda6ce3b104319af367eb00a0ea5b9466d490bec3b/json HTTP/1.1" 200 None
+[01/11/2019 13:27:23] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/images/2bab5db62b88ca74c5e6e48bfa09aadf60c80e53830852aedaa2719696190911/json HTTP/1.1" 200 None
+[01/11/2019 13:27:23] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/images/0f2a84a8f2d8af3030ff0c8b680c0e322f95a6dd97ab87e2e4f93dd455accc60/json HTTP/1.1" 200 None
+[01/11/2019 13:27:23] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/images/0f2a84a8f2d8af3030ff0c8b680c0e322f95a6dd97ab87e2e4f93dd455accc60/json HTTP/1.1" 200 None
+[01/11/2019 13:27:23] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/images/de7fbf727cbc58fda31f074b02145fa6a710bdbcb81a9cb0367fbd8628d0b545/json HTTP/1.1" 200 None
+[01/11/2019 13:36:30] [DEBUG] urllib3.connectionpool [_new_conn] [connectionpool.py | 225] Starting new HTTP connection (1): localhost:8080
+[01/11/2019 13:36:30] [ERROR] root [get_jenkins_connection] [jenkins_routes.py | 27] Falha na conexão com o jenkins: 
+HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /crumbIssuer/api/json (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f8540727208>: Failed to establish a new connection: [Errno 111] Connection refused',))
+[01/11/2019 13:36:32] [DEBUG] urllib3.connectionpool [_new_conn] [connectionpool.py | 225] Starting new HTTP connection (1): localhost:8001
+[01/11/2019 13:36:32] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:8001 "GET /api/v4/users/ HTTP/1.1" 200 769
+[01/11/2019 13:36:32] [DEBUG] urllib3.connectionpool [_new_conn] [connectionpool.py | 225] Starting new HTTP connection (1): localhost:8001
+[01/11/2019 13:36:33] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:8001 "GET /api/v4/users/ HTTP/1.1" 200 769
+[01/11/2019 13:36:33] [DEBUG] urllib3.connectionpool [_new_conn] [connectionpool.py | 225] Starting new HTTP connection (1): localhost:8001
+[01/11/2019 13:36:33] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:8001 "GET /api/v4/projects/ HTTP/1.1" 200 2576
+[01/11/2019 13:36:34] [DEBUG] docker.utils.config [find_config_file] [config.py | 21] Trying paths: ['/home/developer/.docker/config.json', '/home/developer/.dockercfg']
+[01/11/2019 13:36:34] [DEBUG] docker.utils.config [find_config_file] [config.py | 28] No config file found
+[01/11/2019 13:36:34] [DEBUG] docker.utils.config [find_config_file] [config.py | 21] Trying paths: ['/home/developer/.docker/config.json', '/home/developer/.dockercfg']
+[01/11/2019 13:36:34] [DEBUG] docker.utils.config [find_config_file] [config.py | 28] No config file found
+[01/11/2019 13:36:34] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/containers/json?limit=-1&all=1&size=0&trunc_cmd=0 HTTP/1.1" 200 None
+[01/11/2019 13:36:34] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/containers/cd1ce1cbd2844e2938850330180a6ee416f2eb47bf6275cb68633d8be536fd97/json HTTP/1.1" 200 None
+[01/11/2019 13:36:34] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/containers/11fbe93763f9d9b28091e10eff93c702c0542aeeb3884adbccb7d8e5d14e1758/json HTTP/1.1" 200 None
+[01/11/2019 13:36:34] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/containers/62a2074b9a230ee4f05856091558280580ef079958806584e37ea490818d6990/json HTTP/1.1" 200 None
+[01/11/2019 13:36:34] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/containers/c42360fe4a16e9b8197851ed8a3d5f23f816139f6b2bf8790da399d6d1e14281/json HTTP/1.1" 200 None
+[01/11/2019 13:36:34] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/containers/3b99fdb3b2bc21f6f9c77afb38c37e33c6e785698c2470332666b5bffd130a7b/json HTTP/1.1" 200 None
+[01/11/2019 13:36:34] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/containers/25754fed4e08704072d0f735f976c9ca7a16d128ac872f05795f6dce5931b49b/json HTTP/1.1" 200 None
+[01/11/2019 13:36:34] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/containers/1f8cd7171f64547e8991f475af426fa62a66e1d1ceef354d9b6a3011c9a7a15d/json HTTP/1.1" 200 None
+[01/11/2019 13:36:34] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/containers/19a93fc2ab097823e050806b129e13ccfb5d66f15daf7fb661011e0668aa4ce2/json HTTP/1.1" 200 None
+[01/11/2019 13:36:34] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/images/6d75d1ad2f820e4858847353b01869c420bcdd8c0f4e1a3960db7b8781cc237b/json HTTP/1.1" 200 None
+[01/11/2019 13:36:34] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/images/6d75d1ad2f820e4858847353b01869c420bcdd8c0f4e1a3960db7b8781cc237b/json HTTP/1.1" 200 None
+[01/11/2019 13:36:34] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/images/4c780dfa5f5e85e3c50e500ea3482c5fc70a5c8b5ba8d88de936203da919740b/json HTTP/1.1" 200 None
+[01/11/2019 13:36:34] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/images/4c780dfa5f5e85e3c50e500ea3482c5fc70a5c8b5ba8d88de936203da919740b/json HTTP/1.1" 200 None
+[01/11/2019 13:36:34] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/images/ec2bfee7c2062aadcb72bdf7c58ee44ad31c6f248d2275b3aacc87d06f40f2da/json HTTP/1.1" 200 None
+[01/11/2019 13:36:34] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/images/ec2bfee7c2062aadcb72bdf7c58ee44ad31c6f248d2275b3aacc87d06f40f2da/json HTTP/1.1" 200 None
+[01/11/2019 13:36:34] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/images/ef1323a6d130a1723752666f40a768a0664ef6cf8411ee88b796e8e4dba740fc/json HTTP/1.1" 200 None
+[01/11/2019 13:36:34] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/images/ef1323a6d130a1723752666f40a768a0664ef6cf8411ee88b796e8e4dba740fc/json HTTP/1.1" 200 None
+[01/11/2019 13:36:34] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/images/191b28dbfefe13866bffb0dda6ce3b104319af367eb00a0ea5b9466d490bec3b/json HTTP/1.1" 200 None
+[01/11/2019 13:36:34] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/images/191b28dbfefe13866bffb0dda6ce3b104319af367eb00a0ea5b9466d490bec3b/json HTTP/1.1" 200 None
+[01/11/2019 13:36:34] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/images/2bab5db62b88ca74c5e6e48bfa09aadf60c80e53830852aedaa2719696190911/json HTTP/1.1" 200 None
+[01/11/2019 13:36:34] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/images/0f2a84a8f2d8af3030ff0c8b680c0e322f95a6dd97ab87e2e4f93dd455accc60/json HTTP/1.1" 200 None
+[01/11/2019 13:36:34] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/images/0f2a84a8f2d8af3030ff0c8b680c0e322f95a6dd97ab87e2e4f93dd455accc60/json HTTP/1.1" 200 None
+[01/11/2019 13:36:34] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/images/de7fbf727cbc58fda31f074b02145fa6a710bdbcb81a9cb0367fbd8628d0b545/json HTTP/1.1" 200 None
+[01/11/2019 13:36:35] [DEBUG] docker.utils.config [find_config_file] [config.py | 21] Trying paths: ['/home/developer/.docker/config.json', '/home/developer/.dockercfg']
+[01/11/2019 13:36:35] [DEBUG] docker.utils.config [find_config_file] [config.py | 28] No config file found
+[01/11/2019 13:36:35] [DEBUG] docker.utils.config [find_config_file] [config.py | 21] Trying paths: ['/home/developer/.docker/config.json', '/home/developer/.dockercfg']
+[01/11/2019 13:36:35] [DEBUG] docker.utils.config [find_config_file] [config.py | 28] No config file found
+[01/11/2019 13:36:35] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/containers/json?limit=-1&all=1&size=0&trunc_cmd=0 HTTP/1.1" 200 None
+[01/11/2019 13:36:35] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/containers/cd1ce1cbd2844e2938850330180a6ee416f2eb47bf6275cb68633d8be536fd97/json HTTP/1.1" 200 None
+[01/11/2019 13:36:35] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/containers/11fbe93763f9d9b28091e10eff93c702c0542aeeb3884adbccb7d8e5d14e1758/json HTTP/1.1" 200 None
+[01/11/2019 13:36:35] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/containers/62a2074b9a230ee4f05856091558280580ef079958806584e37ea490818d6990/json HTTP/1.1" 200 None
+[01/11/2019 13:36:35] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/containers/c42360fe4a16e9b8197851ed8a3d5f23f816139f6b2bf8790da399d6d1e14281/json HTTP/1.1" 200 None
+[01/11/2019 13:36:35] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/containers/3b99fdb3b2bc21f6f9c77afb38c37e33c6e785698c2470332666b5bffd130a7b/json HTTP/1.1" 200 None
+[01/11/2019 13:36:35] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/containers/25754fed4e08704072d0f735f976c9ca7a16d128ac872f05795f6dce5931b49b/json HTTP/1.1" 200 None
+[01/11/2019 13:36:35] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/containers/1f8cd7171f64547e8991f475af426fa62a66e1d1ceef354d9b6a3011c9a7a15d/json HTTP/1.1" 200 None
+[01/11/2019 13:36:35] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/containers/19a93fc2ab097823e050806b129e13ccfb5d66f15daf7fb661011e0668aa4ce2/json HTTP/1.1" 200 None
+[01/11/2019 13:36:35] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/images/6d75d1ad2f820e4858847353b01869c420bcdd8c0f4e1a3960db7b8781cc237b/json HTTP/1.1" 200 None
+[01/11/2019 13:36:35] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/images/6d75d1ad2f820e4858847353b01869c420bcdd8c0f4e1a3960db7b8781cc237b/json HTTP/1.1" 200 None
+[01/11/2019 13:36:35] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/images/4c780dfa5f5e85e3c50e500ea3482c5fc70a5c8b5ba8d88de936203da919740b/json HTTP/1.1" 200 None
+[01/11/2019 13:36:35] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/images/4c780dfa5f5e85e3c50e500ea3482c5fc70a5c8b5ba8d88de936203da919740b/json HTTP/1.1" 200 None
+[01/11/2019 13:36:35] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/images/ec2bfee7c2062aadcb72bdf7c58ee44ad31c6f248d2275b3aacc87d06f40f2da/json HTTP/1.1" 200 None
+[01/11/2019 13:36:35] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/images/ec2bfee7c2062aadcb72bdf7c58ee44ad31c6f248d2275b3aacc87d06f40f2da/json HTTP/1.1" 200 None
+[01/11/2019 13:36:35] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/images/ef1323a6d130a1723752666f40a768a0664ef6cf8411ee88b796e8e4dba740fc/json HTTP/1.1" 200 None
+[01/11/2019 13:36:35] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/images/ef1323a6d130a1723752666f40a768a0664ef6cf8411ee88b796e8e4dba740fc/json HTTP/1.1" 200 None
+[01/11/2019 13:36:35] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/images/191b28dbfefe13866bffb0dda6ce3b104319af367eb00a0ea5b9466d490bec3b/json HTTP/1.1" 200 None
+[01/11/2019 13:36:35] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/images/191b28dbfefe13866bffb0dda6ce3b104319af367eb00a0ea5b9466d490bec3b/json HTTP/1.1" 200 None
+[01/11/2019 13:36:35] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/images/2bab5db62b88ca74c5e6e48bfa09aadf60c80e53830852aedaa2719696190911/json HTTP/1.1" 200 None
+[01/11/2019 13:36:35] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/images/0f2a84a8f2d8af3030ff0c8b680c0e322f95a6dd97ab87e2e4f93dd455accc60/json HTTP/1.1" 200 None
+[01/11/2019 13:36:35] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/images/0f2a84a8f2d8af3030ff0c8b680c0e322f95a6dd97ab87e2e4f93dd455accc60/json HTTP/1.1" 200 None
+[01/11/2019 13:36:35] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/images/de7fbf727cbc58fda31f074b02145fa6a710bdbcb81a9cb0367fbd8628d0b545/json HTTP/1.1" 200 None
+[01/11/2019 13:36:37] [DEBUG] urllib3.connectionpool [_new_conn] [connectionpool.py | 225] Starting new HTTP connection (1): localhost:8080
+[01/11/2019 13:36:37] [ERROR] root [get_jenkins_connection] [jenkins_routes.py | 27] Falha na conexão com o jenkins: 
+HTTPConnectionPool(host='localhost', port=8080): Max retries exceeded with url: /crumbIssuer/api/json (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f85419a6fd0>: Failed to establish a new connection: [Errno 111] Connection refused',))
+[01/11/2019 13:36:37] [DEBUG] urllib3.connectionpool [_new_conn] [connectionpool.py | 225] Starting new HTTP connection (1): localhost:8001
+[01/11/2019 13:36:38] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:8001 "GET /api/v4/users/ HTTP/1.1" 200 769
+[01/11/2019 13:36:38] [DEBUG] urllib3.connectionpool [_new_conn] [connectionpool.py | 225] Starting new HTTP connection (1): localhost:8001
+[01/11/2019 13:36:38] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:8001 "GET /api/v4/users/ HTTP/1.1" 200 769
+[01/11/2019 13:36:38] [DEBUG] urllib3.connectionpool [_new_conn] [connectionpool.py | 225] Starting new HTTP connection (1): localhost:8001
+[01/11/2019 13:36:38] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:8001 "GET /api/v4/projects/ HTTP/1.1" 200 2576
+[01/11/2019 13:36:39] [DEBUG] docker.utils.config [find_config_file] [config.py | 21] Trying paths: ['/home/developer/.docker/config.json', '/home/developer/.dockercfg']
+[01/11/2019 13:36:39] [DEBUG] docker.utils.config [find_config_file] [config.py | 28] No config file found
+[01/11/2019 13:36:39] [DEBUG] docker.utils.config [find_config_file] [config.py | 21] Trying paths: ['/home/developer/.docker/config.json', '/home/developer/.dockercfg']
+[01/11/2019 13:36:39] [DEBUG] docker.utils.config [find_config_file] [config.py | 28] No config file found
+[01/11/2019 13:36:39] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/containers/json?limit=-1&all=1&size=0&trunc_cmd=0 HTTP/1.1" 200 None
+[01/11/2019 13:36:39] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/containers/cd1ce1cbd2844e2938850330180a6ee416f2eb47bf6275cb68633d8be536fd97/json HTTP/1.1" 200 None
+[01/11/2019 13:36:39] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/containers/11fbe93763f9d9b28091e10eff93c702c0542aeeb3884adbccb7d8e5d14e1758/json HTTP/1.1" 200 None
+[01/11/2019 13:36:39] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/containers/62a2074b9a230ee4f05856091558280580ef079958806584e37ea490818d6990/json HTTP/1.1" 200 None
+[01/11/2019 13:36:39] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/containers/c42360fe4a16e9b8197851ed8a3d5f23f816139f6b2bf8790da399d6d1e14281/json HTTP/1.1" 200 None
+[01/11/2019 13:36:39] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/containers/3b99fdb3b2bc21f6f9c77afb38c37e33c6e785698c2470332666b5bffd130a7b/json HTTP/1.1" 200 None
+[01/11/2019 13:36:39] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/containers/25754fed4e08704072d0f735f976c9ca7a16d128ac872f05795f6dce5931b49b/json HTTP/1.1" 200 None
+[01/11/2019 13:36:39] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/containers/1f8cd7171f64547e8991f475af426fa62a66e1d1ceef354d9b6a3011c9a7a15d/json HTTP/1.1" 200 None
+[01/11/2019 13:36:39] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/containers/19a93fc2ab097823e050806b129e13ccfb5d66f15daf7fb661011e0668aa4ce2/json HTTP/1.1" 200 None
+[01/11/2019 13:36:39] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/images/6d75d1ad2f820e4858847353b01869c420bcdd8c0f4e1a3960db7b8781cc237b/json HTTP/1.1" 200 None
+[01/11/2019 13:36:39] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/images/6d75d1ad2f820e4858847353b01869c420bcdd8c0f4e1a3960db7b8781cc237b/json HTTP/1.1" 200 None
+[01/11/2019 13:36:39] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/images/4c780dfa5f5e85e3c50e500ea3482c5fc70a5c8b5ba8d88de936203da919740b/json HTTP/1.1" 200 None
+[01/11/2019 13:36:39] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/images/4c780dfa5f5e85e3c50e500ea3482c5fc70a5c8b5ba8d88de936203da919740b/json HTTP/1.1" 200 None
+[01/11/2019 13:36:39] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/images/ec2bfee7c2062aadcb72bdf7c58ee44ad31c6f248d2275b3aacc87d06f40f2da/json HTTP/1.1" 200 None
+[01/11/2019 13:36:39] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/images/ec2bfee7c2062aadcb72bdf7c58ee44ad31c6f248d2275b3aacc87d06f40f2da/json HTTP/1.1" 200 None
+[01/11/2019 13:36:39] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/images/ef1323a6d130a1723752666f40a768a0664ef6cf8411ee88b796e8e4dba740fc/json HTTP/1.1" 200 None
+[01/11/2019 13:36:39] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/images/ef1323a6d130a1723752666f40a768a0664ef6cf8411ee88b796e8e4dba740fc/json HTTP/1.1" 200 None
+[01/11/2019 13:36:39] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/images/191b28dbfefe13866bffb0dda6ce3b104319af367eb00a0ea5b9466d490bec3b/json HTTP/1.1" 200 None
+[01/11/2019 13:36:39] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/images/191b28dbfefe13866bffb0dda6ce3b104319af367eb00a0ea5b9466d490bec3b/json HTTP/1.1" 200 None
+[01/11/2019 13:36:39] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/images/2bab5db62b88ca74c5e6e48bfa09aadf60c80e53830852aedaa2719696190911/json HTTP/1.1" 200 None
+[01/11/2019 13:36:39] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/images/0f2a84a8f2d8af3030ff0c8b680c0e322f95a6dd97ab87e2e4f93dd455accc60/json HTTP/1.1" 200 None
+[01/11/2019 13:36:39] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/images/0f2a84a8f2d8af3030ff0c8b680c0e322f95a6dd97ab87e2e4f93dd455accc60/json HTTP/1.1" 200 None
+[01/11/2019 13:36:39] [DEBUG] urllib3.connectionpool [_make_request] [connectionpool.py | 437] http://localhost:None "GET /v1.35/images/de7fbf727cbc58fda31f074b02145fa6a710bdbcb81a9cb0367fbd8628d0b545/json HTTP/1.1" 200 None

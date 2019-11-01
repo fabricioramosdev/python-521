@@ -63,6 +63,7 @@
     </nav>
     {% endif %}
 
+    {% block menssages %}
 
     {% with messages = get_flashed_messages(with_categories=true) %}
         {% if messages %}
@@ -78,6 +79,8 @@
         </div>
         {% endif%}
     {% endwith%}
+
+    {% endblock%}
 
     <div class="container mt-4">
         <div class="card shadow">
