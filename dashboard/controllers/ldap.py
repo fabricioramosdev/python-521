@@ -17,9 +17,7 @@ def get_ldap_connection():
         return ldap3.Connection(server, user, password, auto_bind=True)
     except Exception as err:
         logging.error(f'Falha na conexão com ldap: \n{err}')
-        print('erro')
-        pass
-
+    
 def find_user_by_email(email, conn):    
 
     try:      
